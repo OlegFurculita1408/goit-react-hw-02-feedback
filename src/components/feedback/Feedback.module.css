@@ -1,0 +1,18 @@
+p {
+    margin: 5px;
+    font-size: 20px;
+}
+.btnContainer {
+    width: 80%;
+    background-color: silver;
+    text-align: center;
+}
+.btnFeedback {
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: aliceblue;
+    border-radius: 3px;
+    margin: 5px;
+}
