@@ -37,15 +37,17 @@ class App extends Component {
 
     return (
       <div>
-          <section title="Please leave feedback">
+          <section>
+            <h2>Please leave feedback</h2>
           <FeedbackOptions
             options={options}
             onLeaveFeedback={this.handlerClick}
           />
           </section>
-          <section title="Statistics">
+          <section>
+            <h2>Statistics</h2>
               {totalFeedback ? (
-            <Statistics
+            <Statistics 
               good={good}
               neutral={neutral}
               bad={bad}
